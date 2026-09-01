@@ -1,0 +1,12 @@
+{
+  "ssh_target": "user@example.com",
+  "remote_event_file": "~/.codex/codex-events.jsonl",
+  "ssh_options": [
+    "-p", "22",
+    "-o", "BatchMode=yes",
+    "-o", "ServerAliveInterval=30",
+    "-o", "ServerAliveCountMax=3"
+  ],
+  "complete_hold_seconds": 4,
+  "reconnect_seconds": 3
+}
