@@ -253,16 +253,3 @@ Remove-Item (Join-Path ([Environment]::GetFolderPath("Startup")) "Codex Air75 Br
   configurator; the bridge will not bypass the minimum version.
 - **Readback or restore failure:** stop the listener, reconnect the keyboard,
   and retry the local `test` command. Do not retry unknown writes indefinitely.
-
-## Privacy and release checklist
-
-Before publishing, verify that the repository contains none of the following:
-
-- Webhook URLs, signing secrets, passwords, SSH private keys, or access tokens;
-- personal usernames, hostnames, IP addresses, or absolute home-directory paths;
-- private event spool files or logs;
-- a personal `air75_v3_bridge.json` copied from a real machine.
-
-Publish only the example JSON, generic scripts, and documentation using
-placeholders such as `user@example.com`, `WINDOWS_USER`, and
-`/path/to/this-repository`.
