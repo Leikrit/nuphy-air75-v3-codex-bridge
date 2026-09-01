@@ -1,5 +1,7 @@
 # Remote Codex to NuPhy Air75 V3 on Windows
 
+English | [简体中文](README.zh-CN.md)
+
 This guide connects Codex running on a remote Linux host to the status lights
 of a NuPhy Air75 V3 connected to a Windows PC by USB-C.
 
